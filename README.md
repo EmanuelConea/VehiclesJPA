@@ -19,9 +19,9 @@ Exemplu: cd "C:\Program Files\PostgreSQL\11\bin"
 psql --command="CREATE DATABASE dacia" --username="postgres"
 psql --command="CREATE DATABASE man" --username="postgres"
 psql --command="CREATE DATABASE volkswagen" --username="postgres"
-psql Cat < "%cale_fisier%\dacia.sql" postgres
-psql Dog < "%cale_fisier%\man.sql" postgres
-psql Parrot < "%cale_fisier%\volkswagen.sql" postgres
+psql dacia < "%cale_fisier%\dacia.sql" postgres
+psql man < "%cale_fisier%\man.sql" postgres
+psql volkswagen< "%cale_fisier%\volkswagen.sql" postgres
 5.Pentru verificare, in PgAdmin 4 se selecteaza o baza de date -> click-dreapta -> refresh
 
 6. Ulterior, se adauga datele aferente in fiecare baza de date.
